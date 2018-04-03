@@ -19,7 +19,7 @@ module.exports = {
                     console.log(`Search query failed with ${err}`);
                     session.endConversation(`Sorry, I had an error when talking to the server.`);
                 } else if (result && result.length > 0) {
-                    const message = messageHelper.getMusiciansCarousel(session, result);
+                    const message =  messageHelper.getMusiciansCarousel(session, result);
                     session.endConversation(message);
                 } else {
                     const message = "I couldn't find any organizations by that name";
