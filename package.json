@@ -1,31 +1,22 @@
 {
-  "name": "azure-searchbots",
+  "name": "QnABot",
   "version": "1.0.0",
-  "description": "Azure search bot for dynamics DB",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gaofiore/azure-searchbots.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "azure-publish": "node publish.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gaofiore/azure-searchbots/issues"
-  },
-  "homepage": "https://github.com/gaofiore/azure-searchbots#readme",
   "dependencies": {
-    "botbuilder": "^3.14.1",
+    "botbuilder": "^3.13.1",
     "botbuilder-azure": "^3.0.4",
-    "botbuilder-cognitiveservices": "^1.1.0",
-    "dotenv": "^5.0.1",
-    "dotenv-extended": "^2.0.1",
-    "markdown": "^0.5.0",
-    "restify": "^7.1.0"
+    "restify": "^5.0.0",
+    "botbuilder-cognitiveservices": "^1.1.0"
   },
   "devDependencies": {
-    "@types/restify": "^5.0.7"
+    "request": "^2.81.0",
+    "zip-folder": "^1.0.0"
   }
 }
