@@ -11,7 +11,7 @@ module.exports = {
                 new builder.HeroCard(session)
                     .title(organization.name)
                     .subtitle("email: " + organization.emailaddress1)
-                    .text('Phone: ' + organization.telephone1 + " | " + organization.websiteurl)  
+                    .text('Phone: ' + organization.telephone1+ " | " + organization.websiteurl)  
             );
         })
         return message;

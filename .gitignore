@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .env
 
 # git ls-files --others --exclude-from=.git/info/exclude
@@ -46,8 +45,3 @@ node_modules
 iisnode.yml
 
 .vscode
-=======
-node_modules/
-*.js.map
-package-lock.json
->>>>>>> 45aa9aba85ff1ab42eb347fadeb99c3a0b871905
