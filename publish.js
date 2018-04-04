@@ -5,9 +5,9 @@ var request = require('request');
 
 var rootFolder = path.resolve('.');
 var zipPath = path.resolve(rootFolder, '../chamberbot.zip');
-var kuduApi = 'https://chamberbot.scm.azurewebsites.net/api/zip/site/wwwroot';
-var userName = '$chamberbot';
-var password = 'SzCknlydRgMvKF1KA9KTegZ5baQb1phADCpr0lkjSPc2qGw96hYDd7677s7h';
+var kuduApi = 'https://github.com/gaofiore/azure-searchbots';
+var userName = 'gaofiore';
+var password = 'eusou300';
 
 function uploadZip(callback) {
   fs.createReadStream(zipPath).pipe(request.put(kuduApi, {
