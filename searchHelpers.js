@@ -1,5 +1,5 @@
 const request = require('request');
-const rootQueryString = `https://dynamicsbotsearch.search.windows.net/indexes/azuresql-index/docs?api-version=2016-09-01&search=*`;
+const rootQueryString = `https://dynamicsbotsearch.search.windows.net/indexes/azuresql-index/docs?api-version=2016-09-01`;
 
 module.exports = {
     facetQuery: (facet, callback) => {
